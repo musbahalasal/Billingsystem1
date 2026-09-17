@@ -15,7 +15,7 @@ namespace Billingsystem1
 
 
 NormalItem item1 = new NormalItem("keyboard", 150, 1);
-            MedicalItem item2 = new MedicalItem("paracetamol", 50, 2);
+            MedicalItem item2 = new MedicalItem("panadol", 50, 2);
 
             invoice inv1 = new invoice(1, c1, item1);
             invoice inv2 = new invoice(2, c1, item2);
